@@ -178,17 +178,6 @@
             &.tineye {
                 background: url(../../images/verification/tineye.svg) no-repeat center center transparent;
                 background-size: 100%;
-                &.good {
-                    span {
-                        // background-color: #21a537;
-                    }
-                }
-                &.bad {
-                }
-                &.ugly {
-                    background: url(../../images/verification/tineye-grey.svg) no-repeat center center transparent;
-                    background-size: 100%;
-                }
                 span {
                     position: absolute;
                     top: -4px;
@@ -204,6 +193,20 @@
                     line-height: 16px;
                     box-shadow: 0 0 2px #000;
                 }
+                &.good {
+                    span {
+                        // background-color: #21a537;
+                    }
+                }
+                &.bad {
+                    span {
+                        background-color: #ff9d00!important;
+                    }
+                }
+                &.ugly {
+                    background: url(../../images/verification/tineye-grey.svg) no-repeat center center transparent;
+                    background-size: 100%;
+                }
             }
             // iztru icon styles
             &.izitru {
@@ -213,7 +216,7 @@
                     position: absolute;
                     top: -4px;
                     right: -4px;
-                    background: #999;
+                    background-color: #448bbf;
                     color: #fff;
                     width: 16px;
                     height: 16px;
@@ -223,6 +226,10 @@
                     border-radius: 3px;
                     line-height: 16px;
                     box-shadow: 0 0 2px #000;
+                }
+                &.ugly {
+                    background: url(../../images/verification/izitru-grey.svg) no-repeat center center transparent;
+                    background-size: 100%;
                 }
                 &-1,
                 &-2,
